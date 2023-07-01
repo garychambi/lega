@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\LEGA\LEGA\bin\Debug\LEGA.exe.config
+C:\Users\User\Desktop\LEGA\LEGA\bin\Debug\LEGA.exe
+C:\Users\User\Desktop\LEGA\LEGA\bin\Debug\LEGA.pdb
+C:\Users\User\Desktop\LEGA\LEGA\obj\Debug\LEGA.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\LEGA\LEGA\obj\Debug\LEGA.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\LEGA\LEGA\obj\Debug\LEGA.Form1.resources
+C:\Users\User\Desktop\LEGA\LEGA\obj\Debug\LEGA.Properties.Resources.resources
+C:\Users\User\Desktop\LEGA\LEGA\obj\Debug\LEGA.csproj.GenerateResource.cache
+C:\Users\User\Desktop\LEGA\LEGA\obj\Debug\LEGA.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\LEGA\LEGA\obj\Debug\LEGA.exe
+C:\Users\User\Desktop\LEGA\LEGA\obj\Debug\LEGA.pdb
