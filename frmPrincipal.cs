@@ -16,5 +16,11 @@ namespace LEGA
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmUsuario frmUsuario = new frmUsuario();
+            frmUsuario.ShowDialog();
+        }
     }
 }
