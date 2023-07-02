@@ -181,6 +181,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cCliente.cs" />
+    <Compile Include="cPedido.cs" />
+    <Compile Include="cMenu.cs" />
+    <Compile Include="cUsuario.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,10 +203,28 @@
     <Compile Include="frmUsuario.Designer.cs">
       <DependentUpon>frmUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="GestionarMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarMenu.Designer.cs">
+      <DependentUpon>GestionarMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestionarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestionarPedido.Designer.cs">
+      <DependentUpon>gestionarPedido.cs</DependentUpon>
+    </Compile>
     <Compile Include="legaDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>legaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pedido.Designer.cs">
+      <DependentUpon>Pedido.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -214,6 +236,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUsuario.resx">
       <DependentUpon>frmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarMenu.resx">
+      <DependentUpon>GestionarMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionarPedido.resx">
+      <DependentUpon>gestionarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pedido.resx">
+      <DependentUpon>Pedido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

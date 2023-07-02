@@ -22,7 +22,7 @@ namespace LEGA
             DataTable dt = new DataTable();
             using (SqlConnection cn = new SqlConnection("Data Source=DESKTOP-5NR4173;Initial Catalog=lega;Integrated Security=True"))
             {
-                SqlDataAdapter da = new SqlDataAdapter("select cuenta,password,nombre_com,ci,fecha_nac,rol,salario from usuario", cn);
+                SqlDataAdapter da = new SqlDataAdapter("select * from usuario", cn);
                 da.SelectCommand.CommandType = CommandType.Text;
                 cn.Open();
                 da.Fill(dt);
@@ -46,7 +46,7 @@ namespace LEGA
                 cn.Open();
                 cmd.ExecuteNonQuery();
                 DataTable dt = new DataTable();
-                SqlDataAdapter da = new SqlDataAdapter("select cuenta,password,nombre_com,ci,fecha_nac,rol,salario from usuario", cn);
+                SqlDataAdapter da = new SqlDataAdapter("select * from usuario", cn);
                 da.SelectCommand.CommandType = CommandType.Text;
                 da.Fill(dt);
 
@@ -63,7 +63,7 @@ namespace LEGA
                 cn.Open();
                 cmd.ExecuteNonQuery();
                 DataTable dt = new DataTable();
-                SqlDataAdapter da = new SqlDataAdapter("select cuenta,password,nombre_com,ci,fecha_nac,rol,salario from usuario", cn);
+                SqlDataAdapter da = new SqlDataAdapter("select * from usuario", cn);
                 da.SelectCommand.CommandType = CommandType.Text;
                 da.Fill(dt);
 
@@ -105,7 +105,7 @@ namespace LEGA
                 cn.Open();
                 cmd.ExecuteNonQuery();
                 DataTable dt = new DataTable();
-                SqlDataAdapter da = new SqlDataAdapter("select cuenta,password,nombre_com,ci,fecha_nac,rol,salario from usuario", cn);
+                SqlDataAdapter da = new SqlDataAdapter("select * from usuario", cn);
                 da.SelectCommand.CommandType = CommandType.Text;
                 da.Fill(dt);
 

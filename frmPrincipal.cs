@@ -22,5 +22,17 @@ namespace LEGA
             frmUsuario frmUsuario = new frmUsuario();
             frmUsuario.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            GestionarMenu gestionarMenu=new GestionarMenu();
+            gestionarMenu.ShowDialog();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            gestionarPedido gestionar=new gestionarPedido();
+            gestionar.ShowDialog();
+        }
     }
 }
